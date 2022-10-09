@@ -1,1 +1,1 @@
-web: gunicorn Blood_Bank.wsgi
+web: python manage.py runserver
