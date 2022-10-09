@@ -85,7 +85,6 @@ qtconsole==5.3.2
 QtPy==2.2.0
 scipy==1.9.1
 Send2Trash==1.8.0
-shiboken2==5.15.6
 six==1.16.0
 soupsieve==2.3.2.post1
 sqlparse==0.4.2
