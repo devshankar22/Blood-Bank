@@ -18,6 +18,8 @@ from django.urls import path
 from blood_app.views import *
 from django.conf import settings
 from django.conf.urls.static import static
+from djnago.views.static import serve
+from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -50,4 +52,6 @@ urlpatterns = [
     path('pay_now/<int:pid>', pay_now, name='pay_now'),
     path('delete_order/<int:pid>', delete_order, name='delete_order'),
     path('delete_user/<int:pid>', delete_user, name='delete_user'),
+    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
