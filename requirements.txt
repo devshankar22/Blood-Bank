@@ -70,7 +70,6 @@ prompt-toolkit==3.0.31
 psutil==5.9.2
 ptyprocess==0.7.0
 pure-eval==0.2.2
-pyalsa==1.2.7
 pycparser==2.21
 pydantic==1.10.2
 Pygments==2.13.0
