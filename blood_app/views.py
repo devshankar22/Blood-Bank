@@ -23,6 +23,7 @@ def About(request):
 def Contact(request):
     return render(request,'contact.html')
 
+#hii
 def Gallery(request):
     return render(request,'gallery.html')
 
