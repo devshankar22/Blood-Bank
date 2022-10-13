@@ -2,6 +2,7 @@ asgiref==3.5.2
 certifi==2022.6.15
 charset-normalizer==2.1.0
 distlib==0.3.4
+dj-database-url==1.0.0
 Django==4.1.2
 django-crispy-forms==1.14.0
 django-model-utils==4.2.0
@@ -9,7 +10,9 @@ django-node==4.0.0
 django-react==0.10.0
 django-tinymce==3.4.0
 djangorestframework==3.13.1
+docopt==0.6.2
 filelock==3.7.1
+func1==1.0.0
 gunicorn==20.1.0
 idna==3.3
 mysql==0.0.3
@@ -17,12 +20,18 @@ mysqlclient==2.1.1
 newsapi==0.1.1
 newsapi-python==0.2.6
 platformdirs==2.5.2
+portalocker==2.5.1
+prompt-toolkit==1.0.18
+pymux==0.14
+pyte==0.5.2
 pytz==2022.1
+pywin32==304
 requests==2.28.1
 six==1.16.0
 sqlparse==0.4.2
 tzdata==2022.1
 urllib3==1.26.10
-virtualenv==20.15.1
 virtualenvwrapper-win==1.2.7
+waitress==2.1.2
+wcwidth==0.2.5
 whitenoise==6.2.0
